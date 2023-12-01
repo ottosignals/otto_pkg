@@ -7,5 +7,5 @@
 module.exports = (params) => {
   return publish("test_table2", {
     type: "table",
-  }).query(ctx => "SELECT * from `${ctx.ref('test_table')}`");
+  }).query(ctx => `SELECT * from ${ctx.ref("test_table")}`);
 }
