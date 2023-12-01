@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const file_one = require("./includes/file_one");
 
 
@@ -37,3 +38,4 @@ module.exports = (params) => {
 
     return result;
 }
+
