@@ -1,0 +1,7 @@
+config {
+ type: "table",
+ description: "A SQLX generated static table."
+}
+
+SELECT
+    123 as sample_data

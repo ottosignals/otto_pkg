@@ -7,5 +7,5 @@
 module.exports = (params) => {
   return publish("test_table", {
     type: "table",
-  }).query(ctx => "SELECT 1 AS test");
+  }).query(ctx => "SELECT '" + params.sample_value + "' AS test");
 }
